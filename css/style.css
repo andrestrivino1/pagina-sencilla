@@ -63,7 +63,6 @@ header {
   display: flex;
   align-items: center;
 }
-
 .nav__logo {
   width: 10%;
 }
@@ -79,6 +78,10 @@ header {
   text-decoration: none;
   margin-left: 0.8em;
   font-size: 20px;
+}
+
+.nav__link:hover{
+  color: #339ecc;
 }
 
 .nav__link:first-of-type {
