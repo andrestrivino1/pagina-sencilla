@@ -40,12 +40,12 @@ header {
   color: white;
 }
 .container-main {
-  background-color: #202a3c;
+  background: #624e0f;
 }
 /*Nav*/
 
 .hero {
-  background-color: #181f2a;
+  background-color: #294217;
   position: relative;
   height: 200px;
 }
@@ -80,7 +80,7 @@ header {
   font-size: 20px;
 }
 
-.nav__link:hover{
+.nav__link:hover {
   color: #339ecc;
 }
 
@@ -125,8 +125,9 @@ header {
   text-decoration: none;
 }
 #btn-home {
-  background: #658744;
+  background: #294217;
   --bs-btn-color: #fff;
+  --bs-btn-border-color: #294217;
 }
 .spread {
   transform: translate(0);
@@ -134,18 +135,23 @@ header {
 .title {
   font-size: 60px;
   margin-bottom: 15px;
+  color: #000;
 }
-
+.slogan{
+  background-color: #fff;
+  opacity: 0.6;
+}
 .copy {
-  font-weight: 300;
+  font-weight: 600;
   font-size: 25px;
+  color: black;
 }
 /* Servivios */
 
 .subtitle {
   text-align: center;
   font-weight: 300;
-  color: #658744;
+  color: #fff;
   margin-bottom: 40px;
   font-size: 40px;
 }
@@ -165,13 +171,22 @@ header {
   margin-bottom: 20px;
 }
 .service p {
-  font-size: 20px;
+  font-size: 25px;
   text-align: justify;
   color: #fff;
 }
+.service h2{
+  color: #fff;
+  text-align: center;
+}
 
+#servicio{
+  justify-content: space-between;
+  display: contents;
+}
 .gallery {
-  background: #1c2431;
+  background: #624e0f;  /* fallback for old browsers */
+  padding: 10px 0 20px 0;
 }
 
 .container-gallery {
@@ -189,9 +204,9 @@ header {
   width: 38rem !important;
 }
 
-#carousel-row{
-    margin-left: 12%;
-}    
+#carousel-row {
+  margin-left: 12%;
+}
 
 .img-fluid {
   height: 100% !important;
@@ -249,7 +264,7 @@ header {
 /* Footer*/
 
 footer {
-  background: #0b1523;
+  background: #294217;  /* fallback for old browsers */
   padding-bottom: 0.1px;
 }
 
@@ -326,9 +341,9 @@ footer {
   #btn-home {
     margin-left: -40%;
   }
-  #carousel-row{
+  #carousel-row {
     margin-left: 20%;
-}   
+  }
   .title {
     font-size: 40px;
   }
