@@ -40,12 +40,12 @@ header {
   color: white;
 }
 .container-main {
-  background: #624e0f;
+  background: #f8efda;
 }
 /*Nav*/
 
 .hero {
-  background-color: #294217;
+  background-color: #000;
   position: relative;
   height: 200px;
 }
@@ -77,7 +77,7 @@ header {
   color: #fff;
   text-decoration: none;
   margin-left: 0.8em;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .nav__link:hover {
@@ -151,7 +151,7 @@ header {
 .subtitle {
   text-align: center;
   font-weight: 300;
-  color: #fff;
+  color: #000;
   margin-bottom: 40px;
   font-size: 40px;
 }
@@ -173,10 +173,10 @@ header {
 .service p {
   font-size: 25px;
   text-align: justify;
-  color: #fff;
+  color: #000;
 }
 .service h2{
-  color: #fff;
+  color: #000;
   text-align: center;
 }
 
@@ -185,7 +185,7 @@ header {
   display: contents;
 }
 .gallery {
-  background: #624e0f;  /* fallback for old browsers */
+  background: #f8efda;
   padding: 10px 0 20px 0;
 }
 
@@ -264,7 +264,7 @@ header {
 /* Footer*/
 
 footer {
-  background: #294217;  /* fallback for old browsers */
+  background: #000;  /* fallback for old browsers */
   padding-bottom: 0.1px;
 }
 
@@ -275,6 +275,7 @@ footer {
   flex-wrap: wrap;
   padding-top: 60px;
   padding-bottom: 40px;
+  max-width: 60% !important;
 }
 
 .contact-us {
@@ -338,9 +339,6 @@ footer {
   .menu-navigation {
     width: 50vw;
   }
-  #btn-home {
-    margin-left: -40%;
-  }
   #carousel-row {
     margin-left: 20%;
   }
@@ -390,7 +388,37 @@ footer {
   }
 }
 @media screen and (max-width: 500px) {
-  #btn-home {
-    margin-left: -40%;
+  .title{
+    font-size: 25px !important;
+  }
+  .copy{
+    font-size: 16px !important;
+  }
+  #col-btn-off{
+    width: 54% !important;
+  }
+  #col-btn{
+    width: 10% !important;
+  }
+  .service p {
+    font-size: 16px !important;
+  }
+  #navContainer{
+    padding: 18px !important;
+  }
+  .nav__logo{
+    width: 20% !important;
+  }
+  .nav__link{
+    font-size: 20px !important;
+  }
+  .subtitle{
+    font-size: 30px !important;
+  }
+  #carousel-row{
+    margin-left: 3% !important;
+  }
+  .h-100{
+    width: 95% !important;
   }
 }
