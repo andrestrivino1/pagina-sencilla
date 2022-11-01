@@ -204,12 +204,16 @@ header {
   text-align: center;
 }
 
+#colTurismo{
+  width: 30%;
+}
+
 #card-slide {
   width: 38rem !important;
 }
 
 #carousel-row {
-  margin-left: 10%;
+  margin-left: 12%;
 }
 
 .img-fluid {
